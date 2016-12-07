@@ -24,8 +24,8 @@
         {
             "guid": "1992b84e-912c-4b05-b29b-5c15f02778d6",
             "identifier": "foot_check",
-            "prompt": "Did you check your feet today?",
-            "detail": "It is important for diabetics to inspect your feet every day, and remember to seek care early if you do get a foot injury - and remember to seek care early if you see cuts or breaks in the skin, blisters, red spots, an ingrown nail, or if your foot feels painful, unusually warm or cold, or just different",
+            "prompt": "Did you check your lipomas today?",
+            "detail": "TBD",
             "constraints":
             {
                 "rules": [],
@@ -48,7 +48,7 @@
                       "type": "SurveyQuestionOption"
                     },
                     {
-                      "label": "I did not check my feet today",
+                      "label": "I did not check my lipomas today",
                       "value": 4,
                       "type": "SurveyQuestionOption"
                     }

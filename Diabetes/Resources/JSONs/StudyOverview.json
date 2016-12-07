@@ -1,13 +1,13 @@
 {
-    "disease_name":"GlucoSuccess",
+    "disease_name":"RADSResearch",
     "from_date":"",
     "to_date":"",
-    "logo_name": "logo_research_institute",
+    "logo_name": "RADS-Logo",
     "questions":
     [
      {
-     "title":"Welcome to GlucoSuccess",
-     "details":"A Diabetes Research Study",
+     "title":"Welcome to RADSResearch",
+     "details":"A Rare Adipose Disease Research Study",
      "show_consent": "yes",
      },
      {

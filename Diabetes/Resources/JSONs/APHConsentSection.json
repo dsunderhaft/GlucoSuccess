@@ -2,8 +2,8 @@
     "documentProperties" :
     {
         "htmlDocument" : "diabetes_fullconsent",
-        "investigatorShortDescription": "The GlucoSuccess team",
-        "investigatorLongDescription": "The GlucoSuccess team",
+        "investigatorShortDescription": "The RADSResearch team",
+        "investigatorLongDescription": "The RADSResearch team",
         "htmlContent": "15sharing_rsch"
     },
     "sections":
@@ -38,7 +38,7 @@
      {
      "sectionType" : "dataGathering",
      "sectionTitle": "Data Gathering  ",
-     "sectionSummary" : "Collected data may reveal patterns of how health behaviors affect your blood glucose, and also advance clinical research into type 2 diabetes.",
+     "sectionSummary" : "Collected data may reveal patterns of how health behaviors affect your Quality of Life, and also advance clinical research into RADs.",
      "sectionHtmlContent" : "5dataprocessing",
      "sectionAnimationUrl":"02_SensorData_to_DataGathering"
      },
@@ -89,7 +89,7 @@
      {
      "sectionType" : "custom",
      "sectionTitle": "Potential Benefits",
-     "sectionSummary": "The information collected by this study may help you better understand and monitor your type 2 diabetes.",
+     "sectionSummary": "The information collected by this study may help you better understand and monitor your RADs.",
      "sectionHtmlContent" : "12potentialbenefits1",
      "sectionImage": "10_PotentialBenifits",
      "sectionAnimationUrl":"10_PotentialBenifits"

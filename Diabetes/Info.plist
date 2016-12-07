@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>GlucoSuccess</string>
+	<string>RADSResearch</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.researchinstitute.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -41,6 +41,14 @@
 		<string>armv7</string>
 		<string>healthkit</string>
 	</array>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>activitytracking</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>activitytracking</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>activitytracking</string>
+	<key>NSMotionUsageDescription</key>
+	<string>activitytracking</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
