@@ -2,7 +2,6 @@
     "schedules": [
                   {
                   "scheduleType"    : "recurring",
-                  "delay"           : "P7D",
                   "interval"        : "P1M",
                   "tasks"           : [{
                                        "taskTitle"     : "Waist Measurement",
@@ -41,7 +40,6 @@
                   },
                   {
                   "scheduleType"    : "recurring",
-                  "delay"           : "P7D",
                   "interval"        : "P7D",
                   "tasks"           : [{
                                        "taskTitle"                : "Weekly Check",
@@ -73,7 +71,6 @@
                   },
                   {
                   "scheduleType"    : "recurring",
-                  "delay"           : "P7D",
                   "interval"        : "P1M",
                   "tasks"           : [{
                                        "taskTitle"                : "Hemoglobin A1C Check",
@@ -85,7 +82,6 @@
                   },
                   {
                   "scheduleType"    : "recurring",
-                  "delay"           : "P30D",
                   "interval"        : "P1M",
                   "tasks"           : [{
                                        "taskTitle"                : "Sleep Survey",
@@ -97,7 +93,6 @@
                   },
                   {
                   "scheduleType"    : "recurring",
-                  "delay"           : "P30D",
                   "interval"        : "P1M",
                   "tasks"           : [{
                                        "taskTitle"                : "Quality of Life Survery",
@@ -119,7 +114,6 @@
                   },
                   {
                   "scheduleType"    : "recurring",
-                  "delay"           : "P7D",
                   "interval"        : "P7D",
                   "tasks"           : [{
                                        "taskTitle": "Weekly Exercise Check-in",
@@ -193,7 +187,6 @@
                   },
                   {
                   "scheduleType"    : "recurring",
-                  "delay"           : "P6D",
                   "interval"        : "P7D",
                   "tasks"           : [{
                                        "taskTitle" : "Weekly Survey",

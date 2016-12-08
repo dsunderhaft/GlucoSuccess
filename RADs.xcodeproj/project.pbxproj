@@ -291,7 +291,7 @@
 		F5CD316F1A0D7AB300341E51 /* APHBaselineTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHBaselineTaskViewController.m; sourceTree = "<group>"; };
 		F5CD31751A0D86E900341E51 /* APHEnterWeightTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHEnterWeightTaskViewController.h; sourceTree = "<group>"; };
 		F5CD31761A0D86E900341E51 /* APHEnterWeightTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHEnterWeightTaskViewController.m; sourceTree = "<group>"; };
-		F5D44D5E19F83F6F0011B334 /* Diabetes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diabetes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D44D5E19F83F6F0011B334 /* RADs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RADs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D44D6219F83F6F0011B334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5D44D6319F83F6F0011B334 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5D44D6E19F83F6F0011B334 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -607,7 +607,7 @@
 		F5D44D5519F83F6F0011B334 = {
 			isa = PBXGroup;
 			children = (
-				F5D44D6019F83F6F0011B334 /* Diabetes */,
+				F5D44D6019F83F6F0011B334 /* RADs */,
 				F5D44D5F19F83F6F0011B334 /* Products */,
 				F5D44D9519F840690011B334 /* Frameworks */,
 			);
@@ -616,12 +616,12 @@
 		F5D44D5F19F83F6F0011B334 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5D44D5E19F83F6F0011B334 /* Diabetes.app */,
+				F5D44D5E19F83F6F0011B334 /* RADs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5D44D6019F83F6F0011B334 /* Diabetes */ = {
+		F5D44D6019F83F6F0011B334 /* RADs */ = {
 			isa = PBXGroup;
 			children = (
 				F5D44DDB19F841C00011B334 /* Startup */,
@@ -633,6 +633,7 @@
 				F5D44D6E19F83F6F0011B334 /* Images.xcassets */,
 				F5D44D6119F83F6F0011B334 /* Supporting Files */,
 			);
+			name = RADs;
 			path = Diabetes;
 			sourceTree = "<group>";
 		};
@@ -774,9 +775,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5D44D5D19F83F6F0011B334 /* Diabetes */ = {
+		F5D44D5D19F83F6F0011B334 /* RADs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5D44D8119F83F6F0011B334 /* Build configuration list for PBXNativeTarget "Diabetes" */;
+			buildConfigurationList = F5D44D8119F83F6F0011B334 /* Build configuration list for PBXNativeTarget "RADs" */;
 			buildPhases = (
 				F5D44D5A19F83F6F0011B334 /* Sources */,
 				F5D44D5B19F83F6F0011B334 /* Frameworks */,
@@ -791,9 +792,9 @@
 				743AD10D1ABE36500071C218 /* PBXTargetDependency */,
 				74B713CC1AC0714800FE2553 /* PBXTargetDependency */,
 			);
-			name = Diabetes;
+			name = RADs;
 			productName = Diabetes;
-			productReference = F5D44D5E19F83F6F0011B334 /* Diabetes.app */;
+			productReference = F5D44D5E19F83F6F0011B334 /* RADs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -824,7 +825,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5D44D5919F83F6F0011B334 /* Build configuration list for PBXProject "Diabetes" */;
+			buildConfigurationList = F5D44D5919F83F6F0011B334 /* Build configuration list for PBXProject "RADs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -898,7 +899,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				F5D44D5D19F83F6F0011B334 /* Diabetes */,
+				F5D44D5D19F83F6F0011B334 /* RADs */,
 			);
 		};
 /* End PBXProject section */
@@ -1267,7 +1268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5D44D5919F83F6F0011B334 /* Build configuration list for PBXProject "Diabetes" */ = {
+		F5D44D5919F83F6F0011B334 /* Build configuration list for PBXProject "RADs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5D44D7F19F83F6F0011B334 /* Debug */,
@@ -1277,7 +1278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5D44D8119F83F6F0011B334 /* Build configuration list for PBXNativeTarget "Diabetes" */ = {
+		F5D44D8119F83F6F0011B334 /* Build configuration list for PBXNativeTarget "RADs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5D44D8219F83F6F0011B334 /* Debug */,
