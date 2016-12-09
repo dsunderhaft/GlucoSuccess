@@ -67,6 +67,11 @@
 		74B713C91AC0714800FE2553 /* BridgeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B7138A1ABF032D00FE2553 /* BridgeSDK.framework */; };
 		74B713CA1AC0714800FE2553 /* BridgeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74B7138A1ABF032D00FE2553 /* BridgeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7B20DC6D1A9F9E9200AAF855 /* APHSevenDayFitnessAllocationTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B20DC691A9F9E9200AAF855 /* APHSevenDayFitnessAllocationTaskViewController.m */; };
+		A0513ADD1DFAF776000DD1FD /* BCS_feedback.json in Resources */ = {isa = PBXBuildFile; fileRef = A0513ADA1DFAF775000DD1FD /* BCS_feedback.json */; };
+		A0513ADE1DFAF776000DD1FD /* BCS_mythoughts.json in Resources */ = {isa = PBXBuildFile; fileRef = A0513ADB1DFAF775000DD1FD /* BCS_mythoughts.json */; };
+		A0513ADF1DFAF776000DD1FD /* BCSWeeklySurvey.json in Resources */ = {isa = PBXBuildFile; fileRef = A0513ADC1DFAF775000DD1FD /* BCSWeeklySurvey.json */; };
+		A0513AEA1DFAF815000DD1FD /* DailyJournalControllers in Resources */ = {isa = PBXBuildFile; fileRef = A0513AE81DFAF815000DD1FD /* DailyJournalControllers */; };
+		A0513AEB1DFAF815000DD1FD /* Generic Surveys in Resources */ = {isa = PBXBuildFile; fileRef = A0513AE91DFAF815000DD1FD /* Generic Surveys */; };
 		A781160A1A96AE5700CEC822 /* 00_Blank_to_Activities@2x.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A78115FB1A96AE5700CEC822 /* 00_Blank_to_Activities@2x.m4v */; };
 		A781160B1A96AE5700CEC822 /* 01_Activities_to_SensorData@2x.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A78115FC1A96AE5700CEC822 /* 01_Activities_to_SensorData@2x.m4v */; };
 		A781160C1A96AE5700CEC822 /* 02_SensorData_to_DataGathering@2x.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A78115FD1A96AE5700CEC822 /* 02_SensorData_to_DataGathering@2x.m4v */; };
@@ -273,6 +278,11 @@
 		74B7137E1ABF032C00FE2553 /* BridgeSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BridgeSDK.xcodeproj; path = BridgeSDK/BridgeSDK.xcodeproj; sourceTree = "<group>"; };
 		7B20DC681A9F9E9200AAF855 /* APHSevenDayFitnessAllocationTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHSevenDayFitnessAllocationTaskViewController.h; sourceTree = "<group>"; };
 		7B20DC691A9F9E9200AAF855 /* APHSevenDayFitnessAllocationTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHSevenDayFitnessAllocationTaskViewController.m; sourceTree = "<group>"; };
+		A0513ADA1DFAF775000DD1FD /* BCS_feedback.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BCS_feedback.json; sourceTree = "<group>"; };
+		A0513ADB1DFAF775000DD1FD /* BCS_mythoughts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BCS_mythoughts.json; sourceTree = "<group>"; };
+		A0513ADC1DFAF775000DD1FD /* BCSWeeklySurvey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BCSWeeklySurvey.json; sourceTree = "<group>"; };
+		A0513AE81DFAF815000DD1FD /* DailyJournalControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DailyJournalControllers; sourceTree = "<group>"; };
+		A0513AE91DFAF815000DD1FD /* Generic Surveys */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Generic Surveys"; sourceTree = "<group>"; };
 		A78115FB1A96AE5700CEC822 /* 00_Blank_to_Activities@2x.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00_Blank_to_Activities@2x.m4v"; sourceTree = "<group>"; };
 		A78115FC1A96AE5700CEC822 /* 01_Activities_to_SensorData@2x.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01_Activities_to_SensorData@2x.m4v"; sourceTree = "<group>"; };
 		A78115FD1A96AE5700CEC822 /* 02_SensorData_to_DataGathering@2x.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02_SensorData_to_DataGathering@2x.m4v"; sourceTree = "<group>"; };
@@ -395,6 +405,9 @@
 		0857F2EA1A9F85E800587E4D /* surveys */ = {
 			isa = PBXGroup;
 			children = (
+				A0513ADA1DFAF775000DD1FD /* BCS_feedback.json */,
+				A0513ADB1DFAF775000DD1FD /* BCS_mythoughts.json */,
+				A0513ADC1DFAF775000DD1FD /* BCSWeeklySurvey.json */,
 				08DA0E821AD018D500D71E0B /* DiabetesQoLSurvey.json */,
 				08DA0E831AD018D500D71E0B /* DiabetesSleepSurvey.json */,
 				5A004DFA1AA76C1D00F7A9A9 /* BaselineSurvey.json */,
@@ -760,6 +773,8 @@
 		F5D44E0819F841C00011B334 /* TasksAndSteps */ = {
 			isa = PBXGroup;
 			children = (
+				A0513AE81DFAF815000DD1FD /* DailyJournalControllers */,
+				A0513AE91DFAF815000DD1FD /* Generic Surveys */,
 				087507AE1B01AFD500F83C50 /* Medication Tracker */,
 				7B20DC611A9F9E9200AAF855 /* Seven Day Allocation */,
 				F5CD316C1A0D7A9B00341E51 /* BaselineSurvey */,
@@ -971,9 +986,11 @@
 				083B0B8E1A78236700C19E68 /* consent_03@2x.m4v in Resources */,
 				083B0B941A78236700C19E68 /* consent_02@3x.m4v in Resources */,
 				F5D44E1F19F841C00011B334 /* Main.storyboard in Resources */,
+				A0513ADD1DFAF776000DD1FD /* BCS_feedback.json in Resources */,
 				A78116151A96AE5700CEC822 /* 11_IssuesToConsider1@3x.m4v in Resources */,
 				083B0B981A78236700C19E68 /* consent_06@3x.m4v in Resources */,
 				083B0B921A78236700C19E68 /* consent_07@2x.m4v in Resources */,
+				A0513AEB1DFAF815000DD1FD /* Generic Surveys in Resources */,
 				A78116121A96AE5700CEC822 /* 01_Activities_to_SensorData@3x.m4v in Resources */,
 				0857F2EE1A9F85E800587E4D /* diabetes_weekly_survey.json in Resources */,
 				083B0B911A78236700C19E68 /* consent_06@2x.m4v in Resources */,
@@ -982,9 +999,11 @@
 				5B15DCE61A114B5600BEA0D1 /* Learn.json in Resources */,
 				083B0B8D1A78236700C19E68 /* consent_02@2x.m4v in Resources */,
 				A78116101A96AE5700CEC822 /* 13_RiskToPrivacy@2x.m4v in Resources */,
+				A0513ADF1DFAF776000DD1FD /* BCSWeeklySurvey.json in Resources */,
 				08B972791A22584200316D49 /* APHGlucoseLog.storyboard in Resources */,
 				F5D44D6F19F83F6F0011B334 /* Images.xcassets in Resources */,
 				083B0B8F1A78236700C19E68 /* consent_04@2x.m4v in Resources */,
+				A0513ADE1DFAF776000DD1FD /* BCS_mythoughts.json in Resources */,
 				A781160A1A96AE5700CEC822 /* 00_Blank_to_Activities@2x.m4v in Resources */,
 				083B0B931A78236700C19E68 /* consent_01@3x.m4v in Resources */,
 				083B0B951A78236700C19E68 /* consent_03@3x.m4v in Resources */,
@@ -1005,6 +1024,7 @@
 				08DA0E841AD018D500D71E0B /* DiabetesQoLSurvey.json in Resources */,
 				F5D44E1719F841C00011B334 /* APHTasksAndSchedules.json in Resources */,
 				5B1D9D7E1A1BD581000F4AD6 /* APHDashboard.storyboard in Resources */,
+				A0513AEA1DFAF815000DD1FD /* DailyJournalControllers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
