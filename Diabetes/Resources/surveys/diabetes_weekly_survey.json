@@ -8,7 +8,7 @@
                   {
                   "guid" : "1992b80e-912c-4b05-b29b-5c15f02688d6",
                   "identifier" : "med_intake",
-                  "prompt" : "Over the past week, which of the following best describes how you took your diabetes medicines?",
+                  "prompt" : "Over the past week, which of the following best describes how you took your medicines and supplements?",
                   "detail" : "Be as accurate as possible.  Remember, we are only trying to understand your behavior for this study.",
                   "constraints" :
                   {

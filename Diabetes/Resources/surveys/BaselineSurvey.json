@@ -596,6 +596,7 @@
             },
             "uiHint": "numberfield"
         },
+                 
         {
             "guid": "824cff10-3b2f-49c2-8c43-17b79997819a",
             "identifier": "med1_freq",
@@ -644,7 +645,7 @@
             "uiHint": "radiobutton"
         },
         {
-            "guid": "824cff10-3b2f-49c2-8c43-17b79997819a",
+        "guid": "824cff10-3b2f-49c2-8c43-17b79997819a",
             "identifier": "med1_type",
             "type": "SurveyQuestion",
             "prompt": "What type of intake do you take for this medication?",

@@ -35,7 +35,7 @@
                                       "taskID"                   : "DailyCheck-1E174061-5B02-11E4-8ED6-0800200C9A66",
                                       "taskFileName"             : "diabetes_daily_check",
                                       "taskClassName"            : "APHDailyCheckSurveyViewController",
-                                      "taskCompletionTimeString" : "2 Questions",
+                                      "taskCompletionTimeString" : "6 Questions",
                                       }]
                   },
                   {
@@ -105,7 +105,7 @@
                   "scheduleType"    : "recurring",
                   "scheduleString"  : "0 5 * * *",
                   "tasks"           : [{
-                                       "taskTitle" : "My Thoughts",
+                                       "taskTitle" : "Journal",
                                        "taskID": "7-MyThoughts-14ffde40-1551-4b48-aae2-8fef38d61b61",
                                        "taskFileName" : "BCS_mythoughts",
                                        "taskClassName" : "APCGenericSurveyTaskViewController",

@@ -19,12 +19,70 @@
             "uiHint":"timepicker",
             "type":"SurveyQuestion"
         },
-         
-                      
+        {
+             "guid":"db8d54db-c00e-4203-af71-2701253aa9e9",
+             "identifier":"sleep_time2",
+             "prompt":"What time did you wake this morning?",
+             "detail":"Use the below scroll to indicate what time you woke this morning",
+             "constraints":
+             {
+             "rules":[],
+             "durationUnit":"minutes",
+             "dataType":"duration",
+             "type":"DurationConstraints"
+             },
+             "uiHint":"timepicker",
+             "type":"SurveyQuestion"
+        },
+             {
+             "guid":"db8d54db-c00e-4203-af71-2701253aa9e9",
+             "identifier":"sleep_time3",
+             "prompt":"What time did you go to sleep last night?",
+             "detail":"Use the below scroll to indicate what time you went to sleep last night.",
+             "constraints":
+             {
+             "rules":[],
+             "durationUnit":"minutes",
+             "dataType":"duration",
+             "type":"DurationConstraints"
+             },
+             "uiHint":"timepicker",
+             "type":"SurveyQuestion"
+        },
+        {
+             "guid":"db8d54db-c00e-4203-af71-2701253aa9e9",
+             "identifier":"sleep_time4",
+             "prompt":"What time did you start eating this morning?",
+             "detail":"Use the below scroll to indicate what time you started eating this morning.",
+             "constraints":
+             {
+             "rules":[],
+             "durationUnit":"minutes",
+             "dataType":"duration",
+             "type":"DurationConstraints"
+             },
+             "uiHint":"timepicker",
+             "type":"SurveyQuestion"
+        },
+        {
+             "guid":"db8d54db-c00e-4203-af71-2701253aa9e9",
+             "identifier":"sleep_time5",
+             "prompt":"What time did you end eating last night?",
+             "detail":"Use the below scroll to indicate what time you stopped eating last night.",
+             "constraints":
+             {
+             "rules":[],
+             "durationUnit":"minutes",
+             "dataType":"duration",
+             "type":"DurationConstraints"
+             },
+             "uiHint":"timepicker",
+             "type":"SurveyQuestion"
+        },
         {
             "guid": "1992b84e-912c-4b05-b29b-5c15f02778d6",
             "identifier": "foot_check",
-            "prompt": "Did you check your lipomas today?",
+            "prompt": "How many meals did you eat yesterday?",
             "detail": "TBD",
             "constraints":
             {
@@ -33,26 +91,30 @@
                 "enumeration":
                 [
                     {
-                      "label": "I checked and found no problems",
+                      "label": "No Meals",
                       "value": 1,
                       "type": "SurveyQuestionOption"
                     },
                     {
-                      "label": "I checked and found some problems, so I sought care",
+                      "label": "1 Meal",
                       "value": 2,
                       "type": "SurveyQuestionOption"
                     },
                     {
-                      "label": "I checked and found some problems, but did not seek care",
+                      "label": "2 Meals",
                       "value": 3,
                       "type": "SurveyQuestionOption"
                     },
                     {
-                      "label": "I did not check my lipomas today",
+                      "label": "3 Meals",
                       "value": 4,
                       "type": "SurveyQuestionOption"
-                    }
-                ],
+                    },
+                     {
+                     "label": "4 or more Meals",
+                     "value": 5,
+                     "type": "SurveyQuestionOption"
+                     },                ],
                 "allowOther":false,
                 "allowMultiple":false,
                 "type":"MultiValueConstraints"
