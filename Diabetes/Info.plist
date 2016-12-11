@@ -24,9 +24,23 @@
 	<string>2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>activitytracking</string>
+	<key>NSCameraUsageDescription</key>
+	<string>clinicalresearch purposes</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>activitytracking</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>activitytracking</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>clinicalresearch purposes</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>clinicalresearch purposes</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>clinicalresearch purposes</string>
+	<key>NSMotionUsageDescription</key>
+	<string>activitytracking</string>
+	<key>NSPhotoLibraryUsageDescription</key>
 	<string>clinicalresearch purposes</string>
 	<key>UIBackgroundModes</key>
 	<array>
@@ -41,20 +55,6 @@
 		<string>armv7</string>
 		<string>healthkit</string>
 	</array>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>activitytracking</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>activitytracking</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>activitytracking</string>
-	<key>NSMotionUsageDescription</key>
-	<string>activitytracking</string>
-	<key>NSCameraUsageDescription</key>
-	<string>clinicalresearch purposes</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>clinicalresearch purposes</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>clinicalresearch purposes</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
