@@ -13,37 +13,37 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "settingsicon_massgen_diabetes_apple_sow1_v13-1@2x.png",
+      "filename" : "Icon-Small@2x-1.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "settingsicon_massgen_diabetes_apple_sow1_v13-1@3x.png",
+      "filename" : "Icon-Small@3x-1.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "spotlighticon_massgen_diabetes_apple_sow1_v13-1@2x.png",
+      "filename" : "Icon-Spotlight-40@2x-2.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "spotlighticon_massgen_diabetes_apple_sow1_v13-1@3x.png",
+      "filename" : "Icon-Spotlight-40@3x-2.png",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "appicon_massgen_diabetes_apple_sow1_v13-1@2x.png",
+      "filename" : "Icon-60@2x-1.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "appicon_massgen_diabetes_apple_sow1_v13-1@3x.png",
+      "filename" : "Icon-60@3x-1.png",
       "scale" : "3x"
     }
   ],
