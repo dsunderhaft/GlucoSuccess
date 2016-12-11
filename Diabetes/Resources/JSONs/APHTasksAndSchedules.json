@@ -126,16 +126,6 @@
                                        }]
                   },
                   {
-                  "scheduleType"    : "once",
-                  "tasks"           : [{
-                                       "taskTitle" : "Background Survey",
-                                       "taskID": "1-BackgroundSurvey-394848ce-ca4f-4abe-b97e-fedbfd7ffb8e",
-                                       "taskFileName" : "BCSBackgroundSurvey",
-                                       "taskClassName" : "APCGenericSurveyTaskViewController",
-                                       "taskCompletionTimeString" : "(One Time) 23 Questions"
-                                       }]
-                  },
-                  {
                   "scheduleType"    : "recurring",
                   "interval"        : "P7D",
                   "tasks"           : [{
