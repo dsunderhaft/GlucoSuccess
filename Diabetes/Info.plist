@@ -25,9 +25,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string></string>
+	<string>clinicalresearch purposes</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>clinicalresearch purposes</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
@@ -49,6 +49,12 @@
 	<string>activitytracking</string>
 	<key>NSMotionUsageDescription</key>
 	<string>activitytracking</string>
+	<key>NSCameraUsageDescription</key>
+	<string>clinicalresearch purposes</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>clinicalresearch purposes</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>clinicalresearch purposes</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
