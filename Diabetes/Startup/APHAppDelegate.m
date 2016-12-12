@@ -217,7 +217,7 @@ typedef NS_ENUM(NSUInteger, APHMigrationRecurringKinds)
     APCTaskReminder *footCheckReminder = [[APCTaskReminder alloc] initWithTaskID:kDailyCheckSurveyIdentifier
                                                                resultsSummaryKey:kFeetCheckStepIdentifier
                                                           completedTaskPredicate:footCheckPredicate
-                                                                    reminderBody:NSLocalizedString(@"Check Your Feet", nil)];
+                                                                    reminderBody:NSLocalizedString(@"Complete Activities", nil)];
     
     [self.tasksReminder.reminders removeAllObjects];
     [self.tasksReminder manageTaskReminder:dailySurveyReminder];
