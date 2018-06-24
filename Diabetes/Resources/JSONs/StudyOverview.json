@@ -6,8 +6,8 @@
     "questions":
     [
      {
-     "title":"Welcome to RADSResearch",
-     "details":"A Rare Adipose Disease Research Study",
+     "title":"Welcome to MyHealth",
+     "details":"A Personalized Research Study Data Capture Application",
      "show_consent": "yes",
      },
      {
