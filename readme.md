@@ -1,9 +1,8 @@
-GlucoSuccess
+COPD Research
 ================
 
-GlucoSuccess is a unique iPhone application that utilizes [ResearchKit](https://github.com/ResearchKit/ResearchKit) and HealthKit to get a more accurate understanding of how various things affect the progression and management of type 2 diabetes. The app presents a variety of surveys and tasks to track health behaviors such as physical activity, diet and medications. 
+COPD Research is a unique iPhone application that utilizes [ResearchKit](https://github.com/ResearchKit/ResearchKit) and HealthKit to get a more accurate understanding of how various things affect the progression and management of COPD. The app presents a variety of surveys and tasks to track health behaviors such as physical activity, diet and medications. 
 
-Massachusetts General Hospital’s goals in this study are to understand how health behaviors influence blood glucose in real life, with a resolution greater than ever before. At the same time, the app provides personalized insights into how one’s daily diet and physical activity relate to their blood glucose values. 
 
 
 Building the App
